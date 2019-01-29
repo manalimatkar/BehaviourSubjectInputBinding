@@ -25,13 +25,6 @@ export class AppComponent implements OnInit {
 
   updateMessage() {      
     this.message.text = "Howdy!! There, how are you???";
-    // this.message = {
-    //   text: "Howdy!! There, how are you???",
-    //   author: "Tony"
-    // }
-
-    console.log("Button Clicked");
-
     this.messageBS.next(this.message);
   }
 
